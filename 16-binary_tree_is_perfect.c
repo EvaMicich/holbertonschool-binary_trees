@@ -115,7 +115,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	}
 	leaves = binary_tree_leaves(tree);
 	height = binary_tree_height(tree) - 1;
-	printf("leaves [%zu], height[%zu]\n", leaves, height);
 	if (leaves == _pow_recursion(two, height))
 	{
 		return (1);
